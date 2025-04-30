@@ -1,0 +1,92 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: tomato;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  header nav a {
+    font-family: 'Lora', serif;
+    margin: 0 0.8rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: gray;
+  }
+  
+  .date {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: 1.3rem;
+  }
+  
+  article {
+    margin-bottom: 2.5rem;
+  }
+  
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .content::first-letter {
+    float: left;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Lora', serif;
+    color: gray;
+  }
+  
+  .continue {
+    text-align: right;
+    color: tomato;
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: tomato;
+  }
+  
+  footer nav {
+    margin-bottom: 1rem;
+  }
+  
+  footer nav a {
+    margin: 0 0.6rem;
+    color: tomato;
+    text-decoration: none;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
