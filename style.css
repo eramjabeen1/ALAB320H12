@@ -1,0 +1,79 @@
+/* General Layout */
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    border-left: 4px solid lightgray;
+  }
+  
+  /* Header */
+  header {
+    background-color: tomato;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  main img {
+    width: 100%;
+    height: auto;
+  }
+  
+  article {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+  }
+  
+  article a {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+  }
+  
+  /* Drop Cap */
+  article p::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.4rem;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  footer nav a {
+    color: gray;
+    text-decoration: none;
+  }
+  
