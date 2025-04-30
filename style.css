@@ -1,79 +1,92 @@
-/* General Layout */
 body {
-    max-width: 1000px;
+    font-family: 'Oxygen', sans-serif;
+    color: #333;
+    max-width: 700px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: Arial, sans-serif;
-    border-left: 4px solid lightgray;
+    line-height: 1.6;
   }
   
-  /* Header */
   header {
-    background-color: tomato;
-    padding: 1rem;
-    color: white;
     text-align: center;
+    margin-bottom: 2rem;
   }
   
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  header h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: tomato;
+    margin-bottom: 0.5rem;
   }
   
-  nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  header p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2rem;
   }
   
-  /* Main Content */
-  main img {
-    width: 100%;
-    height: auto;
+  header nav a {
+    font-family: 'Lora', serif;
+    margin: 0 0.8rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: gray;
+  }
+  
+  .date {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: 1.3rem;
   }
   
   article {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
   }
   
-  article a {
-    display: block;
-    text-align: right;
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .content::first-letter {
+    float: left;
+    font-size: 3rem;
+    line-height: 1;
     font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Lora', serif;
+    color: gray;
+  }
+  
+  .continue {
+    text-align: right;
+    color: tomato;
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: tomato;
+  }
+  
+  footer nav {
+    margin-bottom: 1rem;
+  }
+  
+  footer nav a {
+    margin: 0 0.6rem;
     color: tomato;
     text-decoration: none;
   }
   
-  /* Drop Cap */
-  article p::first-letter {
-    font-size: 2rem;
-    font-weight: bold;
-    float: left;
-    margin-right: 0.4rem;
-  }
-  
-  /* Footer */
-  footer {
-    margin-top: 3rem;
-    text-align: center;
+  footer p {
     font-size: 0.9rem;
     color: gray;
-  }
-  
-  footer nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  footer nav a {
-    color: gray;
-    text-decoration: none;
   }
   
